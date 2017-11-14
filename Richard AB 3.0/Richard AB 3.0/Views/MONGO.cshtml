@@ -1,0 +1,117 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = null;
+}
+
+@* the fun starts here *@
+
+<head>
+       
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Slide Down Box Menu with jQuery and CSS3" />
+        <meta name="keywords" content="jquery, css3, sliding, box, menu, cube, navigation, portfolio, thumbnails"/>
+		<link rel="shortcut icon" href="/media/1009/roblox_r_vector_by_iowntreese-d84f1fo.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="/css/menu.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" hreF="/css/formats css.css" type="text/css"/>
+   
+        <title>@CurrentPage.Name</title>
+      <link rel="stylesheet" href="/css/menu2.css"/>
+    </head>
+ <body>
+     
+		<center><div class="content">
+		
+			<ul id="sdt_menu" class="sdt_menu">
+			    	<li>
+					<a href="/">
+						<img src="/media/1018/home.png" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">start</span>
+							<span class="sdt_descr">startsidan</span>
+						
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/om-mig/">
+						<img src="/media/1021/info.png" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Om mig</span>
+							<span class="sdt_descr">Allt du behöver</span>
+								<span class="sdt_descr">veta om mig</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/c-programming/">
+						<img src="/media/1014/cs.png" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">programming</span>
+							<span class="sdt_descr">C#</span>
+								<span class="sdt_descr">aka C-sharp</span>
+						</span>
+					</a>
+				
+				</li>
+				<li>
+					<a href="/vbnet-programming/">
+						<img src="/media/1012/visual-basic.png" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">programming</span>
+							<span class="sdt_descr">vb.net</span>
+							<span class="sdt_descr">aka</span>
+							<span class="sdt_descr">visual basic</span>
+							
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/web-dev/">
+						<img src="/media/1013/web-deev.png" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">programming</span>
+							<span class="sdt_descr">WEB DEV</span>
+							<span class="sdt_descr">HTML/CSS/JS</span>
+							<span class="sdt_descr">JQUERY/BOOTSTRAP</span>
+							
+							
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/kontakta-mig/">
+						<img src="/media/1017/contact-me.png" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">kontakt</span>
+							<span class="sdt_descr">kontakta mig här</span>
+						</span>
+					</a>
+				</li>
+			
+				
+			
+				@RenderBody()
+			</ul>
+				
+		</div></center>
+	
+        <div>
+           
+          
+
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/scripts/jquery.easing.1.3.js"></script>
+        
+     
+        
+           <script type="text/javascript" src="/scripts/menu.js"></script>
+    </body>
+    
+</html>

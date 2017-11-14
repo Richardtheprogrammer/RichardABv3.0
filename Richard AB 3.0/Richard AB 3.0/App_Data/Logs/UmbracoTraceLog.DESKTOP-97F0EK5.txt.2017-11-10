@@ -1,0 +1,225 @@
+﻿ 2017-11-10 13:10:18,172 [P15936/D8/T398] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 13:12:28,941 [P15936/D8/T422] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-09 13:12:28
+ 2017-11-10 13:15:01,737 [P15936/D8/T427] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username goran@zenta.se from IP address ::1
+ 2017-11-10 13:15:01,737 [P15936/D8/T427] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: goran@zenta.se logged in from IP address ::1
+ 2017-11-10 13:15:01,870 [P15936/D8/T427] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "chygman@hotmail.com", but the current user is "goran@zenta.se".
+   vid System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   vid System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   vid System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   vid Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2017-11-10 13:15:07,285 [P15936/D8/T421] INFO  Umbraco.Web.Editors.AuthenticationController - User goran@zenta.se from IP address ::1 has logged out
+ 2017-11-10 13:15:12,999 [P15936/D8/T427] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username chygman@hotmail.com from IP address ::1
+ 2017-11-10 13:15:12,999 [P15936/D8/T427] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: chygman@hotmail.com logged in from IP address ::1
+ 2017-11-10 13:15:46,508 [P15936/D8/T433] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'MONGO' with Id '1068' has been published.
+ 2017-11-10 13:15:50,691 [P15936/D8/T433] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:15:50,697 [P15936/D8/T433] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:16:02,160 [P15936/D8/T433] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'MONGO' with Id '1068' has been published.
+ 2017-11-10 13:16:06,320 [P15936/D8/T430] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:16:06,333 [P15936/D8/T430] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:20:27,200 [P15936/D8/T422] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+ImageProcessor.Common.Exceptions.ImageFormatException: Input stream is not a supported format.
+   vid ImageProcessor.ImageFactory.Load(Stream stream)
+   vid ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Slut på stackspårningen från föregående plats där ett undantag utlöstes ---
+   vid System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   vid System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   vid System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   vid System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-11-10 13:20:48,236 [P15936/D8/T420] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:20:52,399 [P15936/D8/T435] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:20:52,407 [P15936/D8/T435] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:28:36,856 [P15936/D8/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:28:41,035 [P15936/D8/T168] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:28:41,044 [P15936/D8/T168] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:28:52,346 [P15936/D8/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:28:56,503 [P15936/D8/T318] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:28:56,515 [P15936/D8/T318] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:32:27,178 [P15936/D8/T438] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:32:31,352 [P15936/D8/T431] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:32:31,358 [P15936/D8/T431] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:33:32,263 [P15936/D8/T417] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:33:36,443 [P15936/D8/T431] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:33:36,459 [P15936/D8/T431] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:40:41,926 [P15936/D8/T379] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:40:46,114 [P15936/D8/T365] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:40:46,128 [P15936/D8/T365] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:55:25,528 [P15936/D8/T307] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:55:29,676 [P15936/D8/T307] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:55:29,688 [P15936/D8/T307] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:55:54,863 [P15936/D8/T420] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:55:59,021 [P15936/D8/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:55:59,031 [P15936/D8/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 13:59:29,021 [P15936/D8/T412] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 13:59:33,130 [P15936/D8/T412] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 13:59:33,142 [P15936/D8/T412] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:01:44,638 [P15936/D8/T297] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:01:48,753 [P15936/D8/T458] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:01:48,760 [P15936/D8/T458] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:02:19,735 [P15936/D8/T412] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:02:23,816 [P15936/D8/T412] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:02:23,826 [P15936/D8/T412] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:02:34,877 [P15936/D8/T412] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:02:39,036 [P15936/D8/T217] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:02:39,046 [P15936/D8/T217] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:04:38,632 [P15936/D8/T301] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-11-10 14:04:38,639 [P15936/D8/T301] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-11-10 14:04:38,641 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-10 14:04:38,641 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-10 14:04:38,642 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-10 14:04:38,642 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-10 14:04:38,642 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-10 14:04:38,642 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-10 14:04:38,644 [P15936/D8/T296] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-10 14:04:38,644 [P15936/D8/T424] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-10 14:04:38,645 [P15936/D8/T379] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-10 14:04:38,647 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-10 14:04:38,648 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-10 14:04:38,648 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2017-11-10 14:04:38,648 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2017-11-10 14:04:38,648 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2017-11-10 14:04:38,648 [P15936/D8/T407] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-10 14:04:38,658 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-10 14:04:38,658 [P15936/D8/T301] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-10 14:04:38,658 [P15936/D8/T407] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-10 14:04:41,091 [P15936/D9/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.4 application starting on DESKTOP-97F0EK5
+ 2017-11-10 14:04:41,113 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-10 14:04:41,120 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2017-11-10 14:04:41,131 [P15936/D9/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-11-10 14:04:41,132 [P15936/D9/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-11-10 14:04:41,133 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:04:41,598 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 464ms)
+ 2017-11-10 14:04:41,598 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-10 14:04:41,599 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2017-11-10 14:04:41,652 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:04:41,653 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:04:41,653 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-10 14:04:41,653 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-11-10 14:04:41,654 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:04:41,654 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:04:41,654 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-10 14:04:41,655 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 0ms)
+ 2017-11-10 14:04:41,662 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:04:41,662 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:04:41,662 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-11-10 14:04:41,663 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-11-10 14:04:41,663 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:04:41,663 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:04:41,663 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-10 14:04:41,663 [P15936/D9/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2017-11-10 14:04:42,688 [P15936/D9/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-10 14:04:42,839 [P15936/D9/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-10 14:04:43,200 [P15936/D9/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-10 14:04:43,201 [P15936/D9/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-10 14:04:43,205 [P15936/D9/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2202ms)
+ 2017-11-10 14:04:44,975 [P15936/D9/T300] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:60726/umbraco (UmbracoModule request)
+ 2017-11-10 14:04:45,892 [P15936/D9/T296] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:04:45,893 [P15936/D9/T296] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:04:45,893 [P15936/D9/T296] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-10 14:04:45,893 [P15936/D9/T296] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2017-11-10 14:04:46,234 [P15936/D9/T217] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:04:46,234 [P15936/D9/T217] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:04:46,234 [P15936/D9/T217] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-10 14:04:46,234 [P15936/D9/T217] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-11-10 14:04:46,805 [P15936/D9/T296] INFO  umbraco.content - Load Xml from file...
+ 2017-11-10 14:04:46,806 [P15936/D9/T296] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-10 14:05:05,499 [P15936/D9/T418] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:05:05,575 [P15936/D9/T418] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:05:05,575 [P15936/D9/T418] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:05:05,575 [P15936/D9/T418] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-11-10 14:05:05,575 [P15936/D9/T418] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 0ms)
+ 2017-11-10 14:05:06,404 [P15936/D9/T300] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:05:06,405 [P15936/D9/T300] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:05:06,405 [P15936/D9/T300] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-11-10 14:05:06,406 [P15936/D9/T300] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 1ms)
+ 2017-11-10 14:05:08,739 [P15936/D8/T301] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 50 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment orsakade avslut
+
+_shutDownStack=   vid System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   vid System.Environment.get_StackTrace()
+   vid System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   vid System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   vid System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   vid System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   vid System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   vid System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   vid System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   vid System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   vid System.Threading.ThreadPoolWorkQueue.Dispatch()
+   vid System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-11-10 14:05:09,805 [P15936/D9/T203] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:05:09,818 [P15936/D9/T203] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:05:13,186 [P15936/D9/T203] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 14:05:34,292 [P15936/D9/T406] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:05:38,520 [P15936/D9/T406] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:05:38,530 [P15936/D9/T406] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:05:45,504 [P15936/D9/T391] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-09 14:05:45
+ 2017-11-10 14:08:53,987 [P15936/D9/T421] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 14:09:20,607 [P15936/D9/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:09:23,210 [P15936/D9/T365] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 14:09:24,789 [P15936/D9/T408] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:09:24,798 [P15936/D9/T408] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:10:07,207 [P15936/D9/T405] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:10:10,027 [P15936/D9/T405] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 14:10:11,399 [P15936/D9/T399] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:10:11,410 [P15936/D9/T399] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:10:13,018 [P15936/D9/T392] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 14:21:58,864 [P15936/D9/T480] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 14:25:05,835 [P15936/D9/T59] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: chygman@hotmail.com, IP Address: ::1
+ 2017-11-10 14:27:43,799 [P15936/D9/T470] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 14:28:50,958 [P15936/D9/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-10 14:29:19,123 [P15936/D9/T477] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username chygman@hotmail.com from IP address ::1
+ 2017-11-10 14:29:19,125 [P15936/D9/T477] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: chygman@hotmail.com logged in from IP address ::1
+ 2017-11-10 14:29:19,547 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:29:19,548 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:29:19,548 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-11-10 14:29:19,549 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 1ms)
+ 2017-11-10 14:29:19,570 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:29:19,570 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:29:19,570 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-11-10 14:29:19,571 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-11-10 14:29:19,572 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:29:19,573 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:29:19,573 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-11-10 14:29:19,573 [P15936/D9/T470] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2017-11-10 14:30:06,839 [P15936/D9/T477] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:30:11,003 [P15936/D9/T477] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:30:11,014 [P15936/D9/T477] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:30:34,893 [P15936/D9/T470] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# programming' with Id '1137' has been published.
+ 2017-11-10 14:30:39,052 [P15936/D9/T470] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:30:39,061 [P15936/D9/T470] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:47:06,163 [P15936/D9/T394] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:47:06,164 [P15936/D9/T394] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:47:06,164 [P15936/D9/T394] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-11-10 14:47:06,165 [P15936/D9/T394] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-11-10 14:47:06,857 [P15936/D9/T431] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-10 14:47:06,858 [P15936/D9/T431] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-10 14:47:06,858 [P15936/D9/T431] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-11-10 14:47:06,859 [P15936/D9/T431] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2017-11-10 14:47:14,361 [P15936/D9/T425] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+ImageProcessor.Common.Exceptions.ImageFormatException: Input stream is not a supported format.
+   vid ImageProcessor.ImageFactory.Load(Stream stream)
+   vid ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Slut på stackspårningen från föregående plats där ett undantag utlöstes ---
+   vid System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   vid System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   vid System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   vid System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-11-10 14:47:35,962 [P15936/D9/T313] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'vb.net programming' with Id '1138' has been published.
+ 2017-11-10 14:47:40,148 [P15936/D9/T229] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:47:40,168 [P15936/D9/T229] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:56:17,252 [P15936/D9/T478] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'vb.net programming' with Id '1138' has been published.
+ 2017-11-10 14:56:21,433 [P15936/D9/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:56:21,447 [P15936/D9/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 14:57:04,139 [P15936/D9/T475] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'vb.net programming' with Id '1138' has been published.
+ 2017-11-10 14:57:08,306 [P15936/D9/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 14:57:08,315 [P15936/D9/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 15:02:29,317 [P15936/D9/T479] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'vb.net programming' with Id '1138' has been published.
+ 2017-11-10 15:02:33,505 [P15936/D9/T479] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 15:02:33,515 [P15936/D9/T479] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-10 15:07:01,840 [P15936/D9/T481] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'vb.net programming' with Id '1138' has been published.
+ 2017-11-10 15:07:06,004 [P15936/D9/T479] INFO  umbraco.content - Save Xml to file...
+ 2017-11-10 15:07:06,015 [P15936/D9/T479] INFO  umbraco.content - Saved Xml to file.

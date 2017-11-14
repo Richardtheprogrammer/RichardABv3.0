@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "MONGO.cshtml";
+var Blocks = Model.Content.GetPropertyValue<List<IPublishedContent>>("block");
+}
+@if (Blocks != null)
+{	
+	foreach (var block in Blocks)
+	{	
+
+			var partialView = "/Views/Partials/Block/" + block.DocumentTypeAlias + ".cshtml";
+			@Html.Partial(partialView, block)
+	}
+}  

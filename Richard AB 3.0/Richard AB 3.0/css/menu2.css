@@ -1,0 +1,24 @@
+	body{
+				background:#333 url(/media/1016/70216898-tile-wallpapers.png) repeat top left;
+				font-family:Arial;
+			}
+			span.reference{
+				position:fixed;
+				left:10px;
+				bottom:10px;
+				font-size:12px;
+			}
+			span.reference a{
+				color:#aaa;
+				text-transform:uppercase;
+				text-decoration:none;
+				text-shadow:1px 1px 1px #000;
+				margin-right:30px;
+			}
+			span.reference a:hover{
+				color:#ddd;
+			}
+			ul.sdt_menu{
+				margin-top:150px;
+			}
+		
